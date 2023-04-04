@@ -1,0 +1,27 @@
+{
+  "name": "text-to-speech",
+  "version": "0.1.0",
+  "description": "Fun tts to make my little sister happy",
+  "main": "src/index.js",
+  "scripts": {
+    "start:dev": "nodemon src/index",
+    "start": "node src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jakhongiirr/text-to-speech.git"
+  },
+  "author": "Jakhongir Ravshanov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jakhongiirr/text-to-speech/issues"
+  },
+  "homepage": "https://github.com/Jakhongiirr/text-to-speech#readme",
+  "dependencies": {
+    "@google-cloud/translate": "^7.2.0",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.22",
+    "openai": "^3.2.1",
+    "telegraf": "^4.12.2"
+  }
+}
